@@ -1,0 +1,27 @@
+{
+  "name": "@natureslaboratory/animations",
+  "version": "1.0.0",
+  "description": "A simple animations library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natureslaboratory/animations.git"
+  },
+  "author": "Caleb Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natureslaboratory/animations/issues"
+  },
+  "homepage": "https://github.com/natureslaboratory/animations#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
