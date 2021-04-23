@@ -72,7 +72,7 @@ export default class Animated {
     }
 
     heightCheck() {
-        let triggerHeight = window.scrollY + document.documentElement.clientHeight - 200;
+        let triggerHeight = window.scrollY + (0.8 * document.documentElement.clientHeight);
         let elementTop = this.node.getBoundingClientRect().top + document.documentElement.scrollTop;
         
         // console.log(triggerHeight, elementTop);
