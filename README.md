@@ -17,8 +17,11 @@ For example:
 ```html
 <div class="c-animated">
   <p class="c-animated__child c-animated__child--fade">
+    I'll be animated right-away!
+  </p>
   <p class="c-animated__child c-animated__child--fade-up data-animation-delay="500">
-  <p class="c-animated__child c-animated__child--fade-down data-animation-delay="1000">
+    I've got a delay!
+  </p>
 </div>
 
 <div class="c-animated c-animated--fade">
