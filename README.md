@@ -1,6 +1,6 @@
 # animations
 
-A simple animation library for websites. Copy the styles from /css/animations.css into your stylesheet, or link it directly.
+A simple scroll animations library for websites. Copy the styles from /css/animations.css into your stylesheet, or link it directly.
 
 Classes:
 * c-animated - The element to watch.
