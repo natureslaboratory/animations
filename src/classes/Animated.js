@@ -3,6 +3,7 @@ import AnimatedChild from './AnimatedChild';
 export default class Animated {
     node;
     children = [];
+    animationDelay = 0;
 
     get hasChildren() {
         if (this.children.length > 0) {
@@ -29,6 +30,10 @@ export default class Animated {
             }
         }
 
+        if (this.node.dataset.animationDelay) {
+            this.animationDelay = this.node.dataset.animationDelay;
+        }
+
         if (!this.hasChildren) {
             window.addEventListener("DOMContentLoaded", () => {
                 this.animate();
@@ -50,7 +55,13 @@ export default class Animated {
 
     animate() {
         if (this.heightCheck(this.node)) {
-            this.show()
+            if (this.animationDelay) {
+                setTimeout(() => {
+                    this.show()
+                }, this.animationDelay)
+            } else {
+                this.show()
+            }
         }
     }
 

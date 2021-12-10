@@ -4,7 +4,8 @@
   "description": "A simple animations library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
